@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Kulim+Park&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+* {
+  	margin: 0;
+  	padding: 0;
+  	box-sizing: border-box;
+}
+.App {
+  	width: 100%;
+ 	height: 100vh;
+  	background-color: red;
+}
+    /* NAVBAR */
+
+.navbar {
+  	width: 100%;
+  	height: 2rem;
+  	background-color: aquamarine;
+  	z-index: 999;
+}
+    /* END OF NAVABR */
+
+.weatherCn {
+  	width: 100%;
+  	height: 100vh;
+  	background-color: #77C4C4;
+  	display: flex;
+  	flex-direction: column;
+  	justify-content: center;
+  	color: #fff;
+  	font-family: 'Kulim Park', sans-serif;
+  	align-items: center;
+}
+h1 {
+  	font-family: 'Quicksand', sans-serif;
+  	font-size: 3rem;
+}
+h2 {
+  	font-size: 4.2rem;
+}
+
+.location, .temperature {
+  	height: 30vh;
+  	width: 50%;
+  	display: flex;
+  	justify-content: space-around;
+  	align-items: center;
+}
+.temperature {
+  	flex-direction: column;
+}
+.description {
+  	font-size: 20px;
+  	font-style: italic;
+}
+.deg_section {
+  	display: flex;
+  	align-items: center;
+  	cursor: pointer;
+}
+.sym {
+  	margin: 15px;
+  	font-size: 20px;
+}
+.icon {
+	margin: 10px;
+}
