@@ -1,0 +1,15 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "a vanilla javascript weather app",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "Y.Marrakchi",
+  "license": "ISC",
+  "homepage": "https://youness-marrakchi.github.io/WeatherApp",
+  "dependencies": {
+    "gh-pages": "^2.1.1"
+  }
+}
